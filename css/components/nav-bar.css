@@ -1,0 +1,39 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0px;
+  border-top: 1px solid var(--opacity-two-tenths);
+  background-color: white;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__btn {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+}
+
+.nav__list li:nth-child(2) a {
+  position: relative;
+}
+
+.nav_notification {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.nav__list li:last-child a {
+  position: relative;
+}

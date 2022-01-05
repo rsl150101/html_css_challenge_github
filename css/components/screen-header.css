@@ -1,0 +1,29 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 22px;
+  box-sizing: border-box;
+}
+
+.screen-header__title {
+  font-size: 30px;
+  font-weight: 600;
+  cursor: default;
+}
+.screen-header__icons {
+  cursor: default;
+}
+
+.screen-header__icons i {
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.fa-cog {
+  position: relative;
+}

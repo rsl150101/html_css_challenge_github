@@ -1,0 +1,15 @@
+.user-component__column--vertical-align {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+}
+
+.user-component__column--vertical-align span {
+  color: var(--opacity-two-tenths);
+}
+
+.nav_notification--position-static {
+  position: static;
+  margin-top: 8px;
+}
